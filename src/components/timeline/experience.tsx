@@ -14,9 +14,9 @@ const Experience = (props: {duration:string, employer:string, designatoin: strin
         <div>
           <strong>Roles & Responsibilities:</strong>
           <ul className={styles.rolesandresponsibilities}>
-          {props.rolesandresponsibilities.map((role, index) => (
-              <li>{role}</li>
-            ))}
+            {props.rolesandresponsibilities.map((role:string, index:number) => (
+                <li key={index}>{role}</li>
+              ))}
           </ul>
         </div>
       </div>
