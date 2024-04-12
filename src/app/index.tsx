@@ -38,7 +38,7 @@ export default function HomePage() {
         <FillButton btntitle="Hire Me" />
       </header>
       <main>
-        <section className={`bg-no-repeat bg-[center_right_12rem] bg-contain bg-[url('../public/mainpic.png')] bg-green-200 py-[60px] lg:p-[60px] `}>
+        <section className={`bg-no-repeat bg-[center_right_12rem] bg-contain bg-[url('/mainpic.png')] bg-green-200 py-[60px] lg:p-[60px] `}>
           <p className={`py-2 text-green-700 font-extrabold`}>Hello, I am</p>
           <h1 className={`py-2 text-4xl font-extrabold`}>YUGAM THUBRIKAR</h1>
           <p className={`py-2 text-green-700 font-extrabold`}>
@@ -104,7 +104,7 @@ export default function HomePage() {
               <PlainButton />
             </div>
           </div>
-          <div className={`w-[35%] bg-no-repeat bg-[center_right_1rem] bg-contain  bg-[url('../public/me.jpeg')]`}> </div>
+          <div className={`w-[35%] bg-no-repeat bg-[center_right_1rem] bg-contain  bg-[url('/me.jpeg')]`}> </div>
         </section>
         <section id="learn" className={`bg-red-100 pt-5`}>
           <Timeline />
