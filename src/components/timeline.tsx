@@ -51,8 +51,9 @@ const Timeline = () => {
   return (
     <>
       <ul className={styles.timeline}>
-        {myExperience.map((role, index) => (
+        {myExperience.map((role,index:number) => (
           <Experience
+          key={index}
             duration={role.duration}
             designatoin={role.designation}
             employer={role.employer}
